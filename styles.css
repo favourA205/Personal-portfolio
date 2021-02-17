@@ -234,6 +234,8 @@ img {
   right: 0;
   bottom: 0;
   width: 295px;
+  height: 600px;
+  object-fit: contain;
 }
 
 /* ABOUT */
@@ -244,7 +246,7 @@ img {
   text-align: center;
 }
 
-/* .about__img {
+.about__img {
   display: flex;
   justify-content: center;
   padding-top: 1rem;
@@ -253,11 +255,15 @@ img {
   background-color: var(--first-color);
   border-radius: 50%;
   overflow: hidden;
+  /* i added the code below */
+  /* object-fit: contain; */
 }
 
 .about__img img {
   width: 100px;
-} */
+  /* i added the code below */
+  /* object-fit: cover; */
+}
 
 .about__subtitle {
   font-size: var(--h2-font-size);
@@ -267,6 +273,10 @@ img {
 
 .about__text {
   margin-bottom: var(--mb-4);
+}
+
+.about__social-icon:hover {
+  color: var(--first-color);
 }
 
 .about__profession {
@@ -392,10 +402,17 @@ img {
   padding: 0.75rem 2.5rem;
   margin-left: auto;
   border-radius: 0.5rem;
-  border: none;
+  /* border: none; */
+  border: 1px solid var(--first-color);
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact__button:hover {
+  background-color: var(--white-color);
+  color: var(--first-color);
 }
 
 /* FOOTER */

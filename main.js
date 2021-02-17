@@ -1,3 +1,6 @@
+
+
+
 // MENU SHOW
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
@@ -85,12 +88,12 @@ sr.reveal('.portfolio__img',{interval:200})
 
 // SCROLL CONTACT
 
-sr.reveal('.contact__subtitle',{}
+sr.reveal('.contact__subtitle',{})
 sr.reveal('.contact__text',{interval:200})
 sr.reveal('.contact__input',{delay:400})
 sr.reveal('.contact__button',{delay:600})
 
 
-)
+
 
 
