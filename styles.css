@@ -296,6 +296,8 @@ img {
 
 .about__text {
   margin-bottom: var(--mb-4);
+  text-align: left;
+  font-size: 0.89rem;
 }
 
 .about__social-icon {
