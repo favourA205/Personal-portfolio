@@ -403,15 +403,28 @@ img {
   bottom: 0;
 }
 
-/* .portfolio__link-name {
-  color: var(--dark-color);
-} */
-
 .portfolio__link-name {
   color: var(--dark-color);
   padding: 0 13px;
   text-align: center;
   letter-spacing: 1px;
+}
+
+.portfolio__link-github-code {
+  position: absolute;
+  background: var(--dark-color);
+  color: var(--white-color);
+  padding: 10px 20px;
+  margin: 10px 0;
+  z-index: 40;
+  top: 345.9px;
+  border: none;
+  border-bottom-right-radius: 40%;
+  cursor: pointer;
+}
+.portfolio__link-github-code:hover {
+  background: var(--first-color);
+  color: var(--dark-color);
 }
 
 /* CONTACT */
@@ -517,6 +530,22 @@ img {
 @media screen and (max-width: 800px) {
   .home__img {
     bottom: -70px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .contact__form span {
+    padding: 15px;
+    left: 30px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .contact__form span {
+    position: relative;
+    padding: 15px;
+    margin-left: var(--mb-2);
+    left: 80px;
   }
 }
 
