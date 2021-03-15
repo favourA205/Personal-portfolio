@@ -300,6 +300,34 @@ img {
   font-size: 0.89rem;
 }
 
+.about__resume,
+.about__mail {
+  display: flex;
+  align-items: center;
+}
+.about__resume #file {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+#envelope {
+  color: var(--dark-color);
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.about__link {
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.4s ease;
+  border-radius: 4px;
+  color: var(--first-color);
+  background: var(--white-color);
+}
+.about__link:hover {
+  color: var(--dark-color);
+}
 .about__social-icon {
   background: var(--first-color);
   border-radius: 50%;
@@ -438,9 +466,22 @@ img {
   color: var(--first-color);
 }
 
-.contact__text {
+/* .contact__text {
   display: inline-block;
   margin-bottom: var(--mb-2);
+} */
+.contact__text {
+  display: flex;
+  justify-items: center;
+}
+.contact__text i {
+  font-size: 28px;
+  margin-right: 8px;
+  color: var(--first-color);
+}
+
+.contact__text i:hover {
+  color: var(--dark-color);
 }
 
 .contact__form span {
@@ -488,7 +529,7 @@ img {
   margin: 4rem 0;
 }
 
-.contact__thrid-batch {
+.contact__third-batch {
   margin-left: 25px;
   margin: 4rem 0;
 }
@@ -517,7 +558,7 @@ img {
 }
 
 .footer__social {
-  font-size: 1-4rem;
+  font-size: 1.4rem;
   margin-right: var(--mb-1);
 }
 
@@ -535,8 +576,8 @@ img {
 
 @media screen and (max-width: 325px) {
   .contact__form span {
-    padding: 15px;
-    left: 30px;
+    padding: 16px;
+    left: 40px;
   }
 }
 
