@@ -333,6 +333,7 @@ img {
   border-radius: 50%;
   padding: 10px;
   color: var(--white-color);
+  margin-left: 5px;
 }
 
 .about__social-icon:hover {
@@ -384,8 +385,8 @@ img {
 .skills__img svg {
   border-radius: 0.5rem;
   /* added by me  */
-  width: 450px;
-  height: 450px;
+  width: 410px;
+  height: 410px;
   object-fit: contain;
   color: var(--first-color);
 }
@@ -580,6 +581,10 @@ img {
     padding: 15px;
     left: 30px;
   }
+  .skills__img svg {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 @media screen and (max-width: 380px) {
@@ -594,6 +599,14 @@ img {
     position: relative;
     right: 45px;
     margin: 4.5rem 0;
+  }
+  .skills__img svg {
+    width: 290px;
+    height: 290px;
+  }
+
+  .home__title {
+    font-size: 4.55rem;
   }
 }
 
